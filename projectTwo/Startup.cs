@@ -38,7 +38,25 @@ namespace projectDataDimension
             services.AddControllers();
 
             services.AddScoped<Context, Context>();
-            services.AddSwaggerGen();
+            services.AddSwaggerGen(c =>
+
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Swagger UI For DataDimension WEB API",
+                    Description = "Organisation X WEB API Project",
+                  
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Mathlatsi Moloto",
+                        Email = string.Empty,
+                        Url = new Uri("https://twitter.com/spboyer"),
+                    },
+                    
+                });
+            });
+               
 
         }
 

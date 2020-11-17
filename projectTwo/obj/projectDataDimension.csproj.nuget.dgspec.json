@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mahlatsi Moloto\\Downloads\\projectTwo\\projectTwo\\projectDataDimension.csproj": {}
+    "C:\\Users\\Mahlatsi Moloto\\Downloads\\projectTwo\\projectDataDimension\\projectTwo\\projectDataDimension.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mahlatsi Moloto\\Downloads\\projectTwo\\projectTwo\\projectDataDimension.csproj": {
+    "C:\\Users\\Mahlatsi Moloto\\Downloads\\projectTwo\\projectDataDimension\\projectTwo\\projectDataDimension.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahlatsi Moloto\\Downloads\\projectTwo\\projectTwo\\projectDataDimension.csproj",
+        "projectUniqueName": "C:\\Users\\Mahlatsi Moloto\\Downloads\\projectTwo\\projectDataDimension\\projectTwo\\projectDataDimension.csproj",
         "projectName": "projectDataDimension",
-        "projectPath": "C:\\Users\\Mahlatsi Moloto\\Downloads\\projectTwo\\projectTwo\\projectDataDimension.csproj",
+        "projectPath": "C:\\Users\\Mahlatsi Moloto\\Downloads\\projectTwo\\projectDataDimension\\projectTwo\\projectDataDimension.csproj",
         "packagesPath": "C:\\Users\\Mahlatsi Moloto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahlatsi Moloto\\Downloads\\projectTwo\\projectTwo\\obj\\",
+        "outputPath": "C:\\Users\\Mahlatsi Moloto\\Downloads\\projectTwo\\projectDataDimension\\projectTwo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -49,11 +49,19 @@
               "target": "Package",
               "version": "[3.1.9, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             },
             "Swashbuckle": {
               "target": "Package",

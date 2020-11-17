@@ -18,6 +18,7 @@ namespace projectDataDimension.Data
         public DbSet<JobRole> JobRole { get; set; }
         public DbSet<Department> Department { get; set; }
         public DbSet<Education> Education { get; set; }
+        public DbSet<Employee> Employee { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 

@@ -29,6 +29,25 @@ namespace projectDataDimension.Controllers
             var travel = _context.BusinessTravel.ToList();
             return new JsonResult(travel);
         }
+        [HttpGet("getBusinessTravelNames")]
+        public ActionResult getBusinessTravelNames()
+        {
+            try
+            {
+                var travel = _context.BusinessTravel.Select(x => new
+                {
+                    Name = x.Name
+                });
+
+                return new JsonResult(travel);
+            }
+            catch (Exception e)
+            {
+                string excep = e.ToString();
+                return (new JsonResult(null));
+            }
+        }
+
         [HttpGet("getlistbyId{id}")]
         public async Task<ActionResult<BusinessTravelDTO>> getBusinessTravelById(int Id)
         {
